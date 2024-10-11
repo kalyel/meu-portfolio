@@ -1,0 +1,26 @@
+.habilidades .container-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.habilidades .container-habilidades .habiliade {
+    max-width: 350px;
+    padding: 40px 20px;
+
+}
+
+.habilidades .container-habilidades .habiliade h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.habilidades .container-habilidades .habiliade p {
+    font-size: 18px;
+}
+
+.habilidades .container-habilidades .habiliade i {
+    font-size: 80px;
+}

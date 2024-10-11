@@ -148,7 +148,7 @@ body {
     padding: 70px 0 70px;
 }
 
-.projetos .titulo {
+.projetos .titulo, .habilidades .titulo {
     text-align: center;
     padding: 60px 0;
     font-size: 45px;
