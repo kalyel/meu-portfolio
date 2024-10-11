@@ -207,8 +207,8 @@ body {
 }
 
 .projetos .btn-mostrar-projetos {
-    background: none;
-    border: 1px solid #fff;
+    background-color: #44006d;
+    border: 2px solid #fff;
     border-radius: 15px;
     color: #fff;
     width: 180px;
@@ -223,7 +223,7 @@ body {
 }
 
 .projetos .btn-esconder-projetos {
-    background: none;
+    background-color: #44006d;
     border: 1px solid #fff;
     border-radius: 15px;
     color: #fff;
@@ -282,5 +282,5 @@ body {
     right: 50px;
     bottom: 10px;
     border-radius: 20px;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
