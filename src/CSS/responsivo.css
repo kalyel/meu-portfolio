@@ -27,6 +27,7 @@
     .home .informacoes h1 {
         font-size: 30px;
     }
+
     .home .informacoes p {
         font-size: 16px;
 
@@ -38,5 +39,39 @@
 
     .projetos {
         padding: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .cabecalho .menu .menu-mobile {
+        display: block;
+    }
+
+    .cabecalho .menu ul {
+        display: none;
+    }
+
+    .cabecalho .menu input:checked~ul {
+        display: block;
+    }
+
+    .cabecalho .menu {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .cabecalho .menu ul {
+        width: 230px;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .cabecalho .menu ul li a{
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+        color: #000;
     }
 }

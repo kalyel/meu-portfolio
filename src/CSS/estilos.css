@@ -36,6 +36,17 @@ body {
     border: 2px solid #9443d8;
 }
 
+.cabecalho .menu,
+.cabecalho .menu ul {
+    display: flex;
+
+}
+
+.cabecalho .menu {
+     flex-direction: column;
+     align-items: flex-end; 
+}
+
 .cabecalho .menu li a {
     font-size: 20px;
     text-transform: capitalize;
@@ -47,6 +58,65 @@ body {
     background-color: #9443d8;
     color: #fff;
     border-radius: 50px;
+}
+
+.cabecalho .menu .menu-hamburguer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho .menu-mobile {
+    display: none;
+    width: 60px;
+    height: 60px;
+}
+
+.cabecalho .menu .hamburguer {
+    background-color: #ffffff;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho .menu .hamburguer::before,
+.cabecalho .menu .hamburguer::after {
+    background-color: #ffffff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho .menu .hamburguer::before {
+    top: -10px;
+}
+
+.cabecalho .menu .hamburguer::after {
+    bottom: -10px;
+}
+
+.cabecalho .menu input {
+    display: none;
+}
+
+.cabecalho .menu input:checked~label .menu-mobile .hamburguer {
+    transform: rotate(45deg);
+}
+
+.cabecalho .menu input:checked~label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.cabecalho .menu input:checked~label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
 }
 
 .home {
@@ -121,7 +191,7 @@ body {
 }
 
 .home .redes-sociais .fab.fa-instagram:hover {
-    background: linear-gradient(150deg, #515bd4, #8134af,#dd2a7b, #feda77, #f58329);
+    background: linear-gradient(150deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58329);
     color: #fff;
     border: 1px solid #fff;
 }
@@ -146,7 +216,8 @@ body {
     padding: 70px 0 70px;
 }
 
-.projetos .titulo, .habilidades .titulo {
+.projetos .titulo,
+.habilidades .titulo {
     text-align: center;
     padding: 60px 0;
     font-size: 45px;
