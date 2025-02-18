@@ -23,4 +23,5 @@
 
 .habilidades .container-habilidades .habiliade i {
     font-size: 80px;
+    transition: transform 0.3s ease-in-out;
 }
