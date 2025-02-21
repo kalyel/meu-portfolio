@@ -74,4 +74,8 @@
         padding: 10px 0;
         color: #000;
     }
+
+    .home .redes-sociais {
+        justify-content: center;
+    }
 }
