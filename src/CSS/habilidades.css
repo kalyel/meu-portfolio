@@ -5,23 +5,23 @@
     justify-content: center;
 }
 
-.habilidades .container-habilidades .habiliade {
+.habilidades .container-habilidades .habilidade {
     max-width: 350px;
     padding: 40px 20px;
 
 }
 
-.habilidades .container-habilidades .habiliade h3 {
+.habilidades .container-habilidades .habilidade h3 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.habilidades .container-habilidades .habiliade p {
+.habilidades .container-habilidades .habilidade p {
     font-size: 18px;
 }
 
-.habilidades .container-habilidades .habiliade i {
+.habilidades .container-habilidades .habilidade i {
     font-size: 80px;
     transition: transform 0.3s ease-in-out;
 }
